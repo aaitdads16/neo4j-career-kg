@@ -115,6 +115,14 @@ Discover how skills relate to each other based on job postings:
 
 *Skill clusters revealed through graph analysis. Cyan = high-demand skills (NLP, LLM, CV), green = foundational skills (Python, PyTorch).*
 
+## Graph Visualization
+
+![Full Knowledge Graph](screenshots/full-graph.png)
+
+The graph links Job nodes to Company, Location, and Skill nodes via typed 
+relationships (OFFERED_BY, IN_LOCATION, REQUIRES_SKILL), enabling cross-entity 
+analytics impossible in a flat relational schema.
+
 ---
 
 ## 🔥 Power Queries
